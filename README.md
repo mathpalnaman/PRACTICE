@@ -1,2 +1,2 @@
-# naruto
+# basic programs
 c/c++ learning
