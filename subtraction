@@ -1,0 +1,14 @@
+#include <bits/stdc++.h>
+
+using namespace std;
+int main()
+{
+int n;
+int k;
+    cin>>n;
+    cin>>k;
+    int sub=n-k ;
+    cout<< sub << endl;
+    return 0;
+    
+}
