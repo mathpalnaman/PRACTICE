@@ -1,0 +1,27 @@
+#include <bits/stdc++.h>
+using namespace std;
+int main()
+{
+    int a;
+    int b;
+    int c;
+    cin>>a;
+    cin>>b;
+    cin>>c;
+    int sum1=a+b+c;
+    int sum2=a+b;
+    int sum3=c+b;
+    if (a>300)
+    {
+        cout<<sum3<<"\n" <<endl;
+    }
+    else if (sum1>1200)
+    {
+       cout<<sum2<<"\n" <<endl;
+    }
+    else
+    {
+        cout<<"a<=300 or a+b+c<=1200"<<endl;
+    }
+    return 0;
+}
