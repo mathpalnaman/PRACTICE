@@ -1,0 +1,19 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main()
+{
+    int savings;
+    int bill;
+    cin>>savings;
+    cin>>bill;
+    if (savings>bill)
+    {
+    cout<< "sufficient\n";
+    }
+    
+   else
+   { cout<<"insufficient\n";  
+    } 
+    return 0;
+}
